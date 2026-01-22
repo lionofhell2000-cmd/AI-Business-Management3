@@ -1,0 +1,36 @@
+{
+  "name": "ai-business-platform-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode": "^1.5.3",
+    "puppeteer": "^21.6.0",
+    "socket.io": "^4.6.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "stripe": "^14.10.0",
+    "bull": "^4.12.0",
+    "node-cron": "^3.0.3",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0",
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "@types/bull": "^4.10.0",
+    "@types/node-cron": "^3.0.11",
+    "@types/qrcode": "^1.5.5",
+    "tsx": "^4.7.0"
+  }
+}
